@@ -1,0 +1,37 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+}
+#carrossel{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 40vh;
+    background-color: aqua;
+    z-index: 1;
+}
+#display{
+    height: 40vh;
+    width: 100vw;
+}
+button{
+    position: absolute;
+    z-index: 2;
+    padding: 1rem;
+    border-radius: 10rem;
+    font-size: 1rem;
+    font-weight: bold;
+    opacity: 0.8;
+    border: none;
+}
+button:first-of-type{
+    left: 3rem;
+}
+button:last-of-type{
+    right: 3rem;
+}

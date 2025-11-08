@@ -29,6 +29,10 @@ button{
 }
 #cadastro{
     background-color: rgb(252, 191, 191);
+    color: aliceblue;
+}
+#cadastro:hover{
+    background-color: rgb(177, 133, 133);
 }
 input{
     padding: 0.5rem;
@@ -37,16 +41,13 @@ input{
     background-color: rgb(153, 82, 82);
 }
 input::placeholder{
-    color: aliceblue;
-}
-input:hover{
-    width: 31rem;
+    color: rgb(159, 164, 169);
 }
 input:focus::placeholder{
     opacity: 0;
-    width: 31rem;
 }
 input:focus{
     color: aliceblue;
+    width: 31rem;
 }
 
