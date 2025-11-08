@@ -1,0 +1,52 @@
+*{
+        font-size: 1.2rem;
+}
+#container{
+    display: flex;
+    background-color: rgb(253, 134, 134);
+    margin-top: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh;
+}
+.options ul{
+    display: flex;
+    list-style: none;
+    gap: 1vw;
+    align-items: center;
+    margin: 1rem;
+}
+button{
+    padding: 1rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+#login{
+    background: none;
+    color: aliceblue;
+}
+#cadastro{
+    background-color: rgb(252, 191, 191);
+}
+input{
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+    border: none;
+    background-color: rgb(153, 82, 82);
+}
+input::placeholder{
+    color: aliceblue;
+}
+input:hover{
+    width: 31rem;
+}
+input:focus::placeholder{
+    opacity: 0;
+    width: 31rem;
+}
+input:focus{
+    color: aliceblue;
+}
+

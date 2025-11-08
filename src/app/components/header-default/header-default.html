@@ -1,0 +1,49 @@
+<header>
+    <div id="container">
+        <div class="options">
+            <nav>
+                <ul>
+                    <li>
+                        <img src="" alt="Menu">
+                    </li>
+                    <li>
+                        <img src="" alt="Logo">
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="options">
+            <nav>
+                <ul>
+                      
+                    <li>
+                        <input type="text" placeholder="busca...">
+                    </li>
+                    @if(logado){
+                        <li>
+                            <img src="" alt="carrinho">
+                        </li>
+                        <li>
+                            <img src="" alt="perfil">
+                        </li>
+                        <li>
+                            <img src="" alt="configurações">
+                        </li>
+                        }
+                    @else{     
+                    <li>
+                        <button id="login">
+                            Login
+                        </button>
+                    </li>
+                    <li>
+                        <button id="cadastro">
+                            Cadastre-se
+                        </button>
+                    </li>
+                    }
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
