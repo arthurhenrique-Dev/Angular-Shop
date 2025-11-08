@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 })
 export class HeaderDefault {
 
-  logado = true
+  logado = false
 }
