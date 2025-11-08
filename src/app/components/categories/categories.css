@@ -1,0 +1,22 @@
+*{
+    list-style: none;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 17.5rem;
+    margin-right: 17.5rem;
+}
+button{
+    border: black solid 0.1rem;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    background-color: transparent;
+}
+button:hover{
+    color: aliceblue;
+    background-color: black;
+    cursor: pointer;
+}

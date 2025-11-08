@@ -3,7 +3,6 @@ section{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: aqua;
 }
 #carrossel{
     display: flex;
@@ -12,12 +11,12 @@ section{
     align-items: center;
     flex-direction: row;
     height: 40vh;
-    background-color: aqua;
     z-index: 1;
 }
 #display{
     height: 40vh;
-    width: 100vw;
+    width: 90vw;
+    border-radius: 1rem;
 }
 button{
     position: absolute;

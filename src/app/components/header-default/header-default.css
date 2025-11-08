@@ -1,5 +1,6 @@
 *{
-        font-size: 1.2rem;
+    font-size: 1.2rem;
+    list-style: none;
 }
 #container{
     display: flex;
@@ -11,7 +12,6 @@
 }
 .options ul{
     display: flex;
-    list-style: none;
     gap: 1vw;
     align-items: center;
     margin: 1rem;

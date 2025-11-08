@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-show-products',
+  selector: 'app-carousel',
   imports: [],
-  templateUrl: './show-products.html',
-  styleUrl: './show-products.css',
+  templateUrl: './carousel.html',
+  styleUrl: './carousel.css',
 })
-export class ShowProducts {
+export class Carousel {
     indice: number = 0
     imagens: Array<string> = ['/Carrossel/VestidoLolita.png', '/Carrossel/VestidoLolita2.png']
     
