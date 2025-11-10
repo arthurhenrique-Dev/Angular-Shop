@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    margin-top: 13rem;
+    height: 50vh;
+    background-color: rgb(253, 134, 134);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+/*    background-color: aqua; */
+    align-items: flex-start;
+}
+li{
+    list-style: none;
+    margin-top: 1rem;
+}
